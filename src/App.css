@@ -1,7 +1,7 @@
 /* src/App.css */
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -25,4 +25,8 @@
 .project img {
   max-width: 100%;
   height: auto;
+}
+
+label{
+  text-align: left !important;
 }
