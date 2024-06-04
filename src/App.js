@@ -13,12 +13,6 @@ import ContactUs from './pages/ContactUs';
 import './App.css';
 
 function App() {
-  // const dispatch = useDispatch();
-
-  // useEffect(() => {
-  //   dispatch(setProjects(sampleProjects));
-  // }, [dispatch]);
-
   return (
     <Router basename="/TMetAeroWebsite">
       <div className="App">
