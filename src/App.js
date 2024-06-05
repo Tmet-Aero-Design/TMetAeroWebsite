@@ -1,7 +1,7 @@
 // src/App.js
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { setProjects } from './features/portfolio/portfolioSlice';
 import ProjectList from './components/ProjectList';
 import Header from './components/Header';
@@ -14,11 +14,11 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/TMetAeroWebsite">
+    <Router>
       <div className="App">
         <Header />
         <main>
-          <Routes>
+          <Routes basename="/Home">
             <Route path="/" element={<Home />} />
             <Route path="/OurTeam" element={<OurTeam />} />
             <Route path="/SponsorshipPackage" element={<SponsorshipPackage />} />

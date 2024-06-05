@@ -1,7 +1,7 @@
 {
   "name": "tmetaerowebsite",
   "version": "0.1.0",
-  "homepage": "https://tmet-aero-design.github.io/TMetAeroWebsite",
+  "homepage": "https://tmetaero.space/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.5",
