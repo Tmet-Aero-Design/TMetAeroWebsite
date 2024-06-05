@@ -18,7 +18,7 @@ function App() {
       <div className="App">
         <Header />
         <main>
-          <Routes basename="/Home">
+          <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/OurTeam" element={<OurTeam />} />
             <Route path="/SponsorshipPackage" element={<SponsorshipPackage />} />
