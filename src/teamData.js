@@ -42,6 +42,18 @@ const teamMembers = [
       }
     },
     {
+        name: "Saket Bharade",
+        role: "Avionics Chief Integrator, DAS",
+        description: "Sometimes I cook, sometimes I be cooked.",
+        image: "team_pictures/Saket-Bharade.jpg",
+        social: {
+          facebook: "",
+          twitter: "",
+          instagram: "https://www.instagram.com/__saket_",
+          linkedin: "https://www.linkedin.com/in/saket-bharade-86b1a3180/"
+        }
+    },
+    {
       name: "Romit Sagu",
       role: "Avionics Specialist",
       description: "I am a fifth-year undergraduate student specializing in Computer Engineering with a focus on Software. "+
@@ -56,6 +68,30 @@ const teamMembers = [
       }
     },
     {
+        name: "Anh Quan Luu",
+        role: "PADA Structure Lead",
+        description: "In love with Boba Lover.",
+        image: "team_pictures/Anh-Quan-Luu.jpg",
+        social: {
+          facebook: "https://www.facebook.com/quan.luuanh.9?mibextid=LQQJ4d",
+          twitter: "",
+          instagram: "https://www.instagram.com/aquan_lwu",
+          linkedin: "https://www.linkedin.com/in/anhquanluu"
+        }
+    },
+    {
+        name: "Krishna Patel",
+        role: "Wing Lead",
+        description: "Greetings, my name is Krishna. I am going into my fourth year of aerospace engineering and I’ll be your wing lead for this year.",
+        image: "team_pictures/Krishna-Patel.jpg",
+        social: {
+          facebook: "",
+          twitter: "",
+          instagram: "https://www.instagram.com/krishhna_",
+          linkedin: "https://www.linkedin.com/in/krishna-patel-926557290"
+        }
+    },
+    {
         name: "Siyona Singh Rathore",
         role: "Fuselage Jr Lead",
         description: "Almond milk enthusiast.",
@@ -66,7 +102,19 @@ const teamMembers = [
           instagram: "https://www.instagram.com/iwantanicepage",
           linkedin: ""
         }
-      }
+    },
+    {
+        name: "Darren Chu",
+        role: "Junior Manager",
+        description: "Almond milk Hater.",
+        image: "team_pictures/Darren-Chu.PNG",
+        social: {
+          facebook: "",
+          twitter: "",
+          instagram: "",
+          linkedin: ""
+        }
+    }
   ];
   
   export default teamMembers;
