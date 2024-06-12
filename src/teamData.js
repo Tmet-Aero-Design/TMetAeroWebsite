@@ -4,14 +4,28 @@ const teamMembers = [
     {
       name: "Reyan Anwar",
       role: "Team Captain",
-      description: "Ediot",
-      image: "https://dummyimage.com/200x200",
+      description: "Potentially the greatest captain in TMAD's history (emphasis on 'potentially'). 5th year aerospace student " + 
+      "with both an intolerance and addiction to dairy. Ex-Senior wing lead (2021-2023). CATIA Demon (Certified). " +
+      "Peak Toad (Mario) Impersonations.",
+      image: "team_pictures/Reyan-Anwar.jpg",
       social: {
-        facebook: "#",
-        twitter: "#",
-        instagram: "#",
-        linkedin: "#"
+        facebook: "",
+        twitter: "",
+        instagram: "https://www.instagram.com/reyan_al_buni",
+        linkedin: "https://www.linkedin.com/in/reyan-anwar/"
       }
+    },
+    {
+        name: "Justin Sam Kumplapallil",
+        role: "Manager",
+        description: "Addicted to riding my motorcycle, procrastinate by playing my guitar, and Pandas.",
+        image: "team_pictures/Justin-Sam-Kumplapallil.png",
+        social: {
+          facebook: "",
+          twitter: "",
+          instagram: "https://www.instagram.com/just1n.s_",
+          linkedin: "https://www.linkedin.com/in/justin-sam-kumplapallil-9161b918a/"
+        }
     },
     {
       name: "Minsu Joo",
