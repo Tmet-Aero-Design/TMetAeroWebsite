@@ -5,9 +5,9 @@ const teamMembers = [
       name: "Reyan Anwar",
       role: "Team Captain",
       description: "Potentially the greatest captain in TMAD's history (emphasis on 'potentially'). 5th year aerospace student " + 
-      "with both an intolerance and addiction to dairy. Ex-Senior wing lead (2021-2023). CATIA Demon (Certified). " +
-      "Peak Toad (Mario) Impersonations.",
-      image: "team_pictures/Reyan-Anwar.jpg",
+                    "with both an intolerance and addiction to dairy. Ex-Senior wing lead (2021-2023). CATIA Demon (Certified). " +
+                    "Peak Toad (Mario) Impersonations.",
+      image: "team_pictures/Reyan-Anwar.JPG",
       social: {
         facebook: "",
         twitter: "",
@@ -19,7 +19,7 @@ const teamMembers = [
         name: "Justin Sam Kumplapallil",
         role: "Manager",
         description: "Addicted to riding my motorcycle, procrastinate by playing my guitar, and Pandas.",
-        image: "team_pictures/Justin-Sam-Kumplapallil.png",
+        image: "team_pictures/Justin-Sam-Kumplapallil.PNG",
         social: {
           facebook: "",
           twitter: "",
