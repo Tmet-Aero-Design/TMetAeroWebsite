@@ -40,7 +40,7 @@ const Home = () => {
     <div>
       <div className="relative video-section h-screen">
         <video className="absolute top-0 left-0 w-full h-full object-cover" muted autoPlay loop>
-          <source src="content/banner-video.mp4" type="video/mp4" />
+          <source src="content/banner-video-upscaled2.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         
