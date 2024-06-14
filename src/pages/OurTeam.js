@@ -17,7 +17,7 @@ const OurTeam = () => {
           {teamMembers.map((member, index) => (
             <div key={index} className="p-4 lg:w-1/2">
               <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                <img alt="team member photo" style={{ width: '192px', height: '192px' }} className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={member.image} />
+                <img alt="team member" style={{ width: '192px', height: '192px' }} className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={member.image} />
                 <div className="flex-grow sm:pl-8">
                   <h2 className="title-font font-medium text-lg text-gray-900">{member.name}</h2>
                   <h3 className="text-gray-500 mb-3">{member.role}</h3>

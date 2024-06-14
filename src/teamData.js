@@ -56,6 +56,30 @@ const teamMembers = [
       }
     },
     {
+      name: "Alex Alfredo Aguilar",
+      role: "Fuselage Lead",
+      description: "In my 4th Year of study going into the aircraft stream and I’ve been apart of the team for 3 years.",
+      image: "team_pictures/Alex-Alfredo-Aguilar.png",
+      social: {
+        facebook: "",
+        twitter: "",
+        instagram: "https://www.instagram.com/fultra_",
+        linkedin: "https://www.linkedin.com/in/aalguilar/"
+      }
+    },
+    {
+      name: "Nayoung Kim",
+      role: "Senior Tail Lead",
+      description: "4th year undergraduate Mechanical Engineering student. CA uncure specialist.",
+      image: "team_pictures/Nayoung-Kim.jpg",
+      social: {
+        facebook: "",
+        twitter: "",
+        instagram: "https://www.instagram.com/nayoung_kim21",
+        linkedin: "https://www.linkedin.com/in/nayoung--kim"
+      }
+    },
+    {
         name: "Saket Bharade",
         role: "Avionics Chief Integrator, DAS",
         description: "Sometimes I cook, sometimes I be cooked.",
