@@ -10,21 +10,21 @@ const sampleProjects = [ // Id is only for backend management. To add a new plan
     id: 1,
     title: 'Apotheosis (2023-2024)',
     description: 'Description for Apotheosis.',
-    image: 'https://dummyimage.com/1203x503',
+    image: 'previous_designs/2023-2024.png',
     link: "/"
   },
   {
     id: 2,
     title: 'Sovereign (2022-2023)',
     description: 'Description for Sovereign.',
-    image: 'https://dummyimage.com/1203x503',
+    image: 'previous_designs/2022-2023.png',
     link: "/"
   },
   {
     id: 3,
     title: '(2021-2022)',
     description: 'Description for project Three.',
-    image: 'https://dummyimage.com/1203x503',
+    image: 'previous_designs/2021-2022.jpg',
     link: "/"
   },
 ];
