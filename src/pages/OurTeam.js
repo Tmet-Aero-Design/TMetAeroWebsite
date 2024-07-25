@@ -5,11 +5,11 @@ import teamMembers from '../teamData';
 
 const OurTeam = () => {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font custom-section">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
-          <h1 className="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">OUR TEAM</h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Our Team</h1>
+        <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Meet our talented team of engineers and designers, committed to pushing the boundaries of innovation and excellence.
           </p>
         </div>

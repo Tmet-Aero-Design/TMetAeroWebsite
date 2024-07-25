@@ -8,24 +8,24 @@ import '../App.css';  // Assuming you have a global CSS file to put your styles
 const sampleProjects = [ // Id is only for backend management. To add a new plane add it at the top of the list with a unique id
   {
     id: 1,
-    title: 'Apotheosis (2023-2024)',
-    description: 'Description for Apotheosis.',
+    title: 'The Apotheosis (2023-2024)',
+    description: "The Apotheosis (2023-24) was the final iteration of our primary aircraft, building upon its predecessor, The Sovereign (2022-23), with significant improvements in stability and overall aerodynamic efficiency.",
     image: 'previous_designs/2023-2024.png',
-    link: "/"
+    link: "/Apotheosis"
   },
   {
     id: 2,
-    title: 'Sovereign (2022-2023)',
-    description: 'Description for Sovereign.',
+    title: 'The Sovereign (2022-2023)',
+    description: "The Sovereign (2022-23) was the next generation of our primary aircraft, derived heavily from its predecessor, Leviathan (2021-22).",
     image: 'previous_designs/2022-2023.png',
-    link: "/"
+    link: "/Sovereign"
   },
   {
     id: 3,
-    title: '(2021-2022)',
-    description: 'Description for project Three.',
+    title: 'Leviathan (2021-2022)',
+    description: "The Leviathan was the first aircraft from its design cycle, setting a precedent for a design philosophy that focuses on simplicity and reliability. ",
     image: 'previous_designs/2021-2022.jpg',
-    link: "/"
+    link: "/Leviathan"
   },
 ];
 

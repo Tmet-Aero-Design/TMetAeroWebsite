@@ -8,7 +8,7 @@ import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
 
 const SponsorshipPackage = () => {
     const viewerRef = useRef(null);
-    const fileUrl = "content/SponsorshipPackage2024.pdf"; 
+    const fileUrl = "content/Sponsorship Package 2025.pdf"; 
 
     // Custom CSS to hide the open file button
     const customStyles = `
@@ -34,9 +34,9 @@ const SponsorshipPackage = () => {
 const ViewerWrapper = React.forwardRef(({ fileUrl, customStyles, ...rest }, ref) => {
     const defaultLayoutPluginInstance = defaultLayoutPlugin();
     return (
-        <div style={{ position: 'relative' }}>
+        <div style={{ position: 'relative', minWidth: '600px', minHeight: '800px', margin: 'auto' }}>
             <style>{customStyles}</style>
-            <Viewer fileUrl={fileUrl} ref={ref} {...rest} plugins={[defaultLayoutPluginInstance]} defaultScale={0.75} />
+            <Viewer fileUrl={fileUrl} ref={ref} {...rest} plugins={[defaultLayoutPluginInstance]} defaultScale={1.0} />
         </div>
     );
 });

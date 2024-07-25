@@ -26,7 +26,7 @@ const Header = () => {
   }, [isHomePage]);
 
   return (
-    <header className={`text-gray-600 body-font fixed w-full z-10 transition-all duration-300 ${isHomePage ? (isScrolled ? 'header-bg-white' : 'bg-transparent') : 'bg-white'}`}>
+    <header className={`text-gray-600 body-font fixed w-full z-10 transition-all duration-300 ${isHomePage ? (isScrolled ? 'header-bg-white' : 'bg-transparent') : 'header-bg-white'}`}>
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <Link className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" to="/">
           {/* <svg
