@@ -136,3 +136,7 @@ button.bg-indigo-600 {
     padding-top: 50px;
   }
 }
+
+.custom-section {
+  min-height: 95vh;
+}
