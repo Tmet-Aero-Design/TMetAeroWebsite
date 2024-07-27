@@ -106,6 +106,18 @@ const teamMembers = [
       }
     },
     {
+      name: "Minsu Kim",
+      role: "PADA Avionics Lead",
+      description: "Motivated 3rd year Aerospace student.",
+      image: "team_pictures/Minsu-Kim.jpg",
+      social: {
+        facebook: "",
+        twitter: "",
+        instagram: "",
+        linkedin: "https://www.linkedin.com/in/minsu-kim-39955b165/"
+      }
+    },
+    {
         name: "Anh Quan Luu",
         role: "PADA Structure Lead",
         description: "In love with Boba Lover.",
