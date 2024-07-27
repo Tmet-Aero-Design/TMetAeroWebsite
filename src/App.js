@@ -1,24 +1,32 @@
-// src/App.js
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import OurTeam from './pages/OurTeam';
 import SponsorshipPackage from './pages/SponsorshipPackage';
 import ContactUs from './pages/ContactUs';
-
 import BlogApotheosis from './pages/Blog-Apotheosis';
 import BlogSovereign from './pages/Blog-Sovereign';
 import BlogLeviathan from './pages/Blog-Leviathan';
-
 import './App.css';
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Header />
+        <ScrollToTop />
         <main>
           <Routes>
             <Route path="/" element={<Home />} />

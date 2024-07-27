@@ -138,5 +138,5 @@ button.bg-indigo-600 {
 }
 
 .custom-section {
-  min-height: 95vh;
+  min-height: calc(100vh - 110px);
 }
