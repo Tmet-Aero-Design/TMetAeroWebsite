@@ -26,21 +26,17 @@ const teamMembers = [
           instagram: "https://www.instagram.com/just1n.s_",
           linkedin: "https://www.linkedin.com/in/justin-sam-kumplapallil-9161b918a/"
         }
-    },
+    },  
     {
       name: "Minsu Joo",
       role: "Design Analysis and Experimental Validations Lead/Technical Advisor ",
-      description: "2nd Year Masters Student in Aerospace Engineering with specialization in Low-Speed Aerodynamics. "+
-                    "Former Advanced Design and Rapid Prototyping Lead (2022-2024). "+
-                    "Former Fuselage and Tail Lead (2021-2022). " +
-                    "Former Autonomous Glider Systems Lead (2020-2021). " +
-                    "Former Flight Systems Lead (2019-2020). ",
+      description: "Graduate Student in Aerospace Engineering with specialization in Low-Speed Aerodynamics and Wind Tunnel Testing.",
       image: "team_pictures/Minsu-Joo.jpg",
       social: {
         facebook: "",
         twitter: "",
         instagram: "https://www.instagram.com/lieutenantminus/",
-        linkedin: ""
+        linkedin: "https://www.linkedin.com/in/minsu-joo-761648a6"
       }
     },
     {
@@ -58,7 +54,7 @@ const teamMembers = [
     {
       name: "Alex Alfredo Aguilar",
       role: "Fuselage Lead",
-      description: "In my 4th Year of study going into the aircraft stream and I’ve been apart of the team for 3 years.",
+      description: "In my 4th Year of study going into the aircraft stream and I’ve been a part of the team for 3 years.",
       image: "team_pictures/Alex-Alfredo-Aguilar.png",
       social: {
         facebook: "",
@@ -128,6 +124,18 @@ const teamMembers = [
           instagram: "https://www.instagram.com/aquan_lwu",
           linkedin: "https://www.linkedin.com/in/anhquanluu"
         }
+    },
+    {
+      name: "Jeongyun Jeong",
+      role: "PADA Structure Lead",
+      description: "Hi, My name is Jeongyun Jeong. I was GTV Lead in 2022-23 and Team Manager 2023-24. I will be helping the team as PADA Structure CO-designer with Quan as well as composite works.",
+      image: "team_pictures/Jeongyun-Jeong.jpg",
+      social: {
+        facebook: "",
+        twitter: "",
+        instagram: "",
+        linkedin: "https://www.linkedin.com/in/jeongyun-jeong-37100b295/"
+      }
     },
     {
         name: "Krishna Patel",
