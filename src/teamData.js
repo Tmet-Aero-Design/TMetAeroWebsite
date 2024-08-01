@@ -113,7 +113,7 @@ const teamMembers = [
       social: {
         facebook: "",
         twitter: "",
-        instagram: "",
+        instagram: "https://www.instagram.com/bigbread_su/",
         linkedin: "https://www.linkedin.com/in/minsu-kim-39955b165/"
       }
     },
