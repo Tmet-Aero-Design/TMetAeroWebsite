@@ -21,7 +21,6 @@
     "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
     "redux": "^5.0.1",
-    "tmetaerowebsite": "file:",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
