@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -21,28 +21,12 @@ function ScrollToTop() {
   return null;
 }
 
-function RedirectHandler() {
-  const location = useLocation();
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    const queryParams = new URLSearchParams(window.location.search);
-    const redirectTo = queryParams.get('?');
-    if (redirectTo && redirectTo !== location.pathname) {
-      navigate(redirectTo);
-    }
-  }, [location, navigate]);
-
-  return null;
-}
-
 function App() {
   return (
     <Router>
       <div className="App">
         <Header />
         <ScrollToTop />
-        <RedirectHandler />
         <main>
           <Routes>
             <Route path="/" element={<Home />} />

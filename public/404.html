@@ -2,12 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0; URL=/" />
     <script type="text/javascript">
-      // Redirect all 404 requests to index.html
-      var path = window.location.pathname;
-      window.location.replace('/?' + path);
+      setTimeout(function () {
+        var path = window.location.pathname;
+        window.location.replace('/' + path);
+      }, 100);
     </script>
   </head>
-  <body>
-  </body>
+  <body></body>
 </html>

@@ -77,8 +77,8 @@ const teamMembers = [
     },
     {
         name: "Saket Bharade",
-        role: "Avionics Chief Integrator, DAS",
-        description: "Sometimes I cook, sometimes I be cooked.",
+        role: "Avionics Project Manager",
+        description: "Designing, Managing and delivering Avionics Solutions.",
         image: "team_pictures/Saket-Bharade.jpg",
         social: {
           facebook: "",
@@ -172,7 +172,19 @@ const teamMembers = [
           instagram: "",
           linkedin: ""
         }
-    }
+    },
+    {
+      name: "Sharon Ebenesar",
+      role: "Graphic Designer",
+      description: "Hello!! I’m going into my third year of Aerospace Engineering and I’m going to be the graphics designer for the team. ",
+      image: "team_pictures/Sharon-Ebenesar.png",
+      social: {
+        facebook: "",
+        twitter: "",
+        instagram: "https://www.instagram.com/sharon_ebenesar",
+        linkedin: "https://www.linkedin.com/in/sharon-ebenesar-9b25a0267/"
+      }
+  }
   ];
   
   export default teamMembers;
