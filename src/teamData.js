@@ -164,7 +164,7 @@ const teamMembers = [
     {
         name: "Siyona Singh Rathore",
         role: "Fuselage Jr Lead",
-        description: "Almond milk enthusiast.",
+        description: "2nd year Aerospace student. Epoxy beast. Impractical plane enthusiast.",
         image: "team_pictures/Siyona-Singh-Rathore.jpg",
         social: {
           facebook: "",
