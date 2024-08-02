@@ -114,6 +114,18 @@ const teamMembers = [
       }
     },
     {
+      name: "Nishad Awasthy",
+      role: "PADA Avionics Jr Lead",
+      description: "3rd year electrical engineering student and avid aerospace larper.",
+      image: "team_pictures/Nishad-Awasthy.png",
+      social: {
+        facebook: "",
+        twitter: "",
+        instagram: "",
+        linkedin: "https://www.linkedin.com/in/nishad-awasthy-581a13258/"
+      }
+    },
+    {
         name: "Anh Quan Luu",
         role: "PADA Structure Lead",
         description: "In love with Boba Lover.",
