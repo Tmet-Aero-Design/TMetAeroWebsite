@@ -21,11 +21,12 @@
     "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
     "redux": "^5.0.1",
+    "tmetaerowebsite": "file:",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d build",
+    "deploy": "gh-pages -b gh-pages -d build -t true",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
