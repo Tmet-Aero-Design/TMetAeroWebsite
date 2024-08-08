@@ -126,6 +126,18 @@ const teamMembers = [
       }
     },
     {
+      name: "Leo Tomarchio",
+      role: "PADA Avionics Jr Lead",
+      description: "3rd year aerospace engineer, specializing in trial and (mostly) error.",
+      image: "team_pictures/Leo-Tomarchio.jpg",
+      social: {
+        facebook: "",
+        twitter: "",
+        instagram: "",
+        linkedin: "https://ca.linkedin.com/in/leandro-tomarchio"
+      }
+    },
+    {
         name: "Anh Quan Luu",
         role: "PADA Structure Lead",
         description: "In love with Boba Lover.",
@@ -175,8 +187,8 @@ const teamMembers = [
     },
     {
         name: "Darren Chu",
-        role: "Junior Manager",
-        description: "Almond milk Hater.",
+        role: "Micro-Class Manager",
+        description: "3rd year Aerospace Engineering Student. I am the micro class team manager in charge of coordinating junior leads and generals in the SAE micro class competition. I look forward to seeing you all!",
         image: "team_pictures/Darren-Chu.PNG",
         social: {
           facebook: "",
