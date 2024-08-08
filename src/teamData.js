@@ -115,7 +115,7 @@ const teamMembers = [
     },
     {
       name: "Nishad Awasthy",
-      role: "PADA Avionics Jr Lead",
+      role: "DAS Avionics Jr Lead",
       description: "3rd year electrical engineering student and avid aerospace larper.",
       image: "team_pictures/Nishad-Awasthy.png",
       social: {
