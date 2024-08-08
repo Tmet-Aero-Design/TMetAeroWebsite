@@ -194,7 +194,7 @@ const teamMembers = [
           facebook: "",
           twitter: "",
           instagram: "",
-          linkedin: ""
+          linkedin: "https://www.linkedin.com/in/darren-chu-712311271/"
         }
     },
     {
