@@ -130,7 +130,7 @@ const teamMembers = [
         facebook: "",
         twitter: "",
         instagram: "",
-        linkedin: ""
+        linkedin: "https://www.linkedin.com/in/annatopacio/"
       }
     },
     {
@@ -208,7 +208,7 @@ const teamMembers = [
         facebook: "",
         twitter: "",
         instagram: "",
-        linkedin: ""
+        linkedin: "https://www.linkedin.com/in/kellyloac/"
       }
     },
     {
@@ -288,7 +288,7 @@ const teamMembers = [
         facebook: "",
         twitter: "",
         instagram: "",
-        linkedin: ""
+        linkedin: "https://www.linkedin.com/in/chita124/"
       }
     },
     {
