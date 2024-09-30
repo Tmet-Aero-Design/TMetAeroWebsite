@@ -4,7 +4,7 @@ const teamMembers = [
     {
       name: "Reyan Anwar",
       role: "Team Captain",
-      subteam: "Leadership",
+      subteam: "Management",
       description: "Potentially the greatest captain in TMAD's history (emphasis on 'potentially'). 5th year aerospace student " + 
                     "with both an intolerance and addiction to dairy. Ex-Senior wing lead (2021-2023). CATIA Demon (Certified). " +
                     "Peak Toad (Mario) Impersonations.",
@@ -19,7 +19,7 @@ const teamMembers = [
     {
         name: "Justin Sam Kumplapallil",
         role: "Manager",
-        subteam: "Leadership",
+        subteam: "Management",
         description: "Addicted to riding my motorcycle, procrastinate by playing my guitar, and Pandas.",
         image: "team_pictures/Justin-Sam-Kumplapallil.PNG",
         social: {
@@ -32,7 +32,7 @@ const teamMembers = [
     {
       name: "Darren Chu",
       role: "Micro-Class Manager",
-      subteam: "Leadership",
+      subteam: "Management",
       description: "3rd year Aerospace Engineering Student. I am the micro class team manager in charge of coordinating junior leads and generals in the SAE micro class competition. I look forward to seeing you all!",
       image: "team_pictures/Darren-Chu.PNG",
       social: {
@@ -45,7 +45,7 @@ const teamMembers = [
     {
       name: "Julian Bardin",
       role: "Design Advisor",
-      subteam: "Leadership",
+      subteam: "Management",
       description: "Graduate student and former flight mechanics lead, specializing in aircraft design optimization and tool development.",
       image: "team_pictures/Julian-Bardin.jpg",
       social: {
@@ -58,7 +58,7 @@ const teamMembers = [
     {
       name: "Minsu Joo",
       role: "Design Analysis and Experimental Validations Director/Technical Advisor ",
-      subteam: "Leadership",
+      subteam: "Management",
       description: "Graduate Student in Aerospace Engineering with specialization in Low-Speed Aerodynamics and Wind Tunnel Testing.",
       image: "team_pictures/Minsu-Joo.jpg",
       social: {
