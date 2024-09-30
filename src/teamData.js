@@ -85,7 +85,7 @@ const teamMembers = [
       name: "Nicholas Hrdlicka",
       role: "Flight Mechanics Jr. Lead",
       subteam: "Flight Mechanics",
-      description: "Ski Coach",
+      description: "Hi, I'm Nicholas! I am in my 3rd year of aerospace engineering, focusing on aircraft. I love skiing, soccer, and music.",
       image: "team_pictures/NicholasH.jpg",
       social: {
         facebook: "",
