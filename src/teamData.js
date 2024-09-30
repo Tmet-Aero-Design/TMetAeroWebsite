@@ -194,8 +194,8 @@ const teamMembers = [
       social: {
         facebook: "",
         twitter: "",
-        instagram: "",
-        linkedin: ""
+        instagram: "https://www.instagram.com/aidenv312?igsh=MzJvbHZrbm41NGRy",
+        linkedin: "https://www.linkedin.com/in/aiden-vaagen-445383292"
       }
     },
     {
