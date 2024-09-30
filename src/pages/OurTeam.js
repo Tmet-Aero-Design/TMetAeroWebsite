@@ -27,7 +27,7 @@
           {Object.keys(groupedBySubteam).map((subteam) => (
             <div key={subteam} className="mb-12">
             {/* Subteam Header */}
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">{subteam}</h2>
+            <h2 className="text-2xl font-semibold text-gray-800 mb-4 border-b-2 border-gray-300 pb-2">{subteam}</h2>
 
             {/* Team Members for this subteam */}
             <div className="flex flex-wrap -m-4">
