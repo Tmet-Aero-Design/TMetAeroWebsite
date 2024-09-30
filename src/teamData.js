@@ -127,7 +127,7 @@ const teamMembers = [
   role: "Wing Jr. Lead",
   subteam: "Wing",
   description: "Hi I’m Anna! I’m a wing junior lead, I love music, art, and matcha.",
-  image: "team_pictures/AnnaT.jpg",
+  image: "team_pictures/AnnaT.JPG",
   social: {
     facebook: "",
     twitter: "",
@@ -342,7 +342,7 @@ const teamMembers = [
       role: "R&D Research Lead",
       subteam: "Research and Development",
       description: "3rd year mechanical engineer, streams in Mechanics of Solids and Mechatronics, research assistant at the Applied Aerodynamics Laboratory of Flight.",
-      image: "team_pictures/LeahB.jpg",
+      image: "team_pictures/LeahB.JPG",
       social: {
         facebook: "",
         twitter: "",
