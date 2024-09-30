@@ -340,7 +340,7 @@ const teamMembers = [
         facebook: "",
         twitter: "",
         instagram: "",
-        linkedin: ""
+        linkedin: "https://www.linkedin.com/in/leah-ben-tzur-bb121a249/"
       }
     },
     {
