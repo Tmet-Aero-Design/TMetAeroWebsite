@@ -20,7 +20,7 @@ const teamMembers = [
         name: "Justin Sam Kumplapallil",
         role: "Manager",
         subteam: "Management",
-        description: "Addicted to riding my motorcycle, procrastinate by playing my guitar, and Pandas.",
+        description: "5th year aerospace student and former Fuselage Lead with skills in manufacturing and management. Have a passion for aircrafts, JDM cars and riding my motorcycle. AKA Panda.",
         image: "team_pictures/Justin-Sam-Kumplapallil.PNG",
         social: {
           facebook: "",
@@ -111,7 +111,7 @@ const teamMembers = [
       name: "Krishna Patel",
       role: "Wing Lead",
       subteam: "Wing",
-      description: "Greetings, my name is Krishna. I am going into my fourth year of aerospace engineering and I’ll be your wing lead for this year.",
+      description: "Greetings, my name is Krishna. I am going into my fourth year of aerospace engineering and I'll be your wing lead for this year.",
       image: "team_pictures/Krishna-Patel.jpg",
       social: {
         facebook: "",
@@ -124,7 +124,7 @@ const teamMembers = [
       name: "Anna Topacio",
       role: "Wing Jr. Lead",
       subteam: "Wing",
-      description: "Hi I’m Anna! I’m a wing junior lead, I love music, art, and matcha.",
+      description: "Hi I'm Anna! I'm a wing junior lead, I love music, art, and matcha.",
       image: "team_pictures/AnnaT.JPG",
       social: {
         facebook: "",
@@ -137,7 +137,7 @@ const teamMembers = [
       name: "Amitabha Ghosh",
       role: "Wing Jr. Lead",
       subteam: "Wing",
-      description: "Hey everyone, my name is Amitabha and I’m in my 2nd year of Aerospace Engineering.",
+      description: "Hey everyone, my name is Amitabha and I'm in my 2nd year of Aerospace Engineering.",
       image: "team_pictures/AmitabhaG.jpg",
       social: {
         facebook: "",
@@ -150,7 +150,7 @@ const teamMembers = [
       name: "Alex Alfredo Aguilar",
       role: "Fuselage Lead",
       subteam: "Fuselage",
-      description: "In my 4th Year of study going into the aircraft stream and I’ve been a part of the team for 3 years.",
+      description: "In my 4th Year of study going into the aircraft stream and I've been a part of the team for 3 years.",
       image: "team_pictures/Alex-Alfredo-Aguilar.png",
       social: {
         facebook: "",
@@ -282,7 +282,7 @@ const teamMembers = [
       name: "Chi Ta",
       role: "Autonomous Jr. Lead",
       subteam: "Avionics",
-      description: "Hi everyone, my name is Chi and I'm currently in my third year of Electrical Engineering. I'm joining TMAD as an Avionics PADA Junior Lead this year, and I’m very excited to work and learn from the team!",
+      description: "Hi everyone, my name is Chi and I'm currently in my third year of Electrical Engineering. I'm joining TMAD as an Avionics PADA Junior Lead this year, and I'm very excited to work and learn from the team!",
       image: "team_pictures/ChiT.jpg",
       social: {
         facebook: "",
