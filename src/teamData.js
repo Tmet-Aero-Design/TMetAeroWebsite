@@ -308,7 +308,7 @@ const teamMembers = [
         name: "Anh Quan Luu",
         role: "PADA Structure Lead",
         subteam: "Manufacturing",
-        description: "In love with Boba.",
+        description: "In love with Boba lover.",
         image: "team_pictures/Anh-Quan-Luu.jpg",
         social: {
           facebook: "https://www.facebook.com/quan.luuanh.9?mibextid=LQQJ4d",
