@@ -340,7 +340,7 @@ const teamMembers = [
         facebook: "",
         twitter: "",
         instagram: "",
-        linkedin: ""
+        linkedin: "https://www.linkedin.com/in/jadon-jackman-b50a39260/"
       }
     },
     {
