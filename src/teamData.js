@@ -57,7 +57,7 @@ const teamMembers = [
     }, 
     {
       name: "Minsu Joo",
-      role: "Design Analysis and Experimental Validations Director/Technical Advisor ",
+      role: "Design Analysis and Experimental Validations Director/Technical Advisor",
       subteam: "Management",
       description: "Graduate Student in Aerospace Engineering with specialization in Low-Speed Aerodynamics and Wind Tunnel Testing.",
       image: "team_pictures/Minsu-Joo.jpg",
@@ -66,6 +66,19 @@ const teamMembers = [
         twitter: "",
         instagram: "https://www.instagram.com/lieutenantminus/",
         linkedin: "https://www.linkedin.com/in/minsu-joo-761648a6"
+      }
+    },
+    {
+      name: "Khadija Nouh",
+      role: "Advanced Junior Manager",
+      subteam: "Management",
+      description: "Hi, I am in my 3rd year of aerospace engineering and I am excited to be part of the team!",
+      image: "team_pictures/Khadija-Nouh.jpeg",
+      social: {
+        facebook: "",
+        twitter: "",
+        instagram: "",
+        linkedin: "https://www.linkedin.com/in/khadija-nouh-58456a295/"
       }
     },
     {
