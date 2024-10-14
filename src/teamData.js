@@ -360,7 +360,7 @@ const teamMembers = [
       name: "Sharon Ebenesar",
       role: "Graphic Designer",
       subteam: "Marketing",
-      description: "Hello!! I'm going into my third year of Aerospace Engineering and I'm going to be the graphics designer for the team. ",
+      description: "Hello!! I'm going into my third year of Aerospace Engineering and I'm going to be the graphics designer for the team.",
       image: "team_pictures/Sharon-Ebenesar.png",
       social: {
         facebook: "",
@@ -368,7 +368,20 @@ const teamMembers = [
         instagram: "https://www.instagram.com/sharon_ebenesar",
         linkedin: "https://www.linkedin.com/in/sharon-ebenesar-9b25a0267/"
       }
-  }
+    },
+    {
+      name: "Arshad Usman",
+      role: "Web Developer",
+      subteam: "Marketing",
+      description: "Software Engineer suffering from a major case of senioritis.",
+      image: "team_pictures/Arshad-Usman.jpeg",
+      social: {
+        facebook: "",
+        twitter: "",
+        instagram: "https://www.instagram.com/ar5hadahmed",
+        linkedin: "https://ca.linkedin.com/in/arshad-usman-b32110194"
+      }
+    }
   ];
   
   export default teamMembers;
