@@ -82,6 +82,19 @@ const teamMembers = [
       }
     },
     {
+      name: "Sarah Murshed",
+      role: "Micro-Class Junior Manager",
+      subteam: "Management",
+      description: "Hi I'm Sarah, a 3rd-year Aerospace student. I am a Junior Manager, overseeing the Micro-Class team.",
+      image: "team_pictures/Sarah-Murshed.png",
+      social: {
+        facebook: "",
+        twitter: "",
+        instagram: "",
+        linkedin: "https://www.linkedin.com/in/sarah-murshed-62421b22b/"
+      }
+    },
+    {
       name: "Eric Holyk Sanchez",
       role: "Flight Mechanics Lead",
       subteam: "Flight Mechanics",
