@@ -37,6 +37,6 @@ jobs:
       # Step 5: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         env:
-            CI: true
+            CI: false
             GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         run: npx gh-pages -d build -t true
