@@ -26,4 +26,6 @@ jobs:
 
       # Step 4: Build and deploy
       - name: Run deployment
+        env:
+            CI: false
         run: npm run deploy
