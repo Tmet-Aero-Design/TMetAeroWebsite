@@ -37,8 +37,14 @@ jobs:
         run: npm run build
 
       # Step 5: Deploy to GitHub Pages
-      - name: Deploy to GitHub Pages
-        env:
-            CI: false
-            GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        run: npx gh-pages -d build -t true
+    #   - name: Deploy to GitHub Pages
+    #     env:
+    #         CI: false
+    #         GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+    #     run: npx gh-pages -d build -t true
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+            github_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+            publish_dir: ./build
