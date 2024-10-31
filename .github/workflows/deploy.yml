@@ -32,6 +32,8 @@ jobs:
 
       # Step 4: Build the app
       - name: Build the app
+        env:
+            CI: false
         run: npm run build
 
       # Step 5: Deploy to GitHub Pages
