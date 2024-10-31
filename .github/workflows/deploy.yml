@@ -24,24 +24,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # Set Git user for gh-pages deployment
-      - name: Configure Git user
-        run: |
-            git config --global user.email "github-actions[bot]@users.noreply.github.com"
-            git config --global user.name "github-actions[bot]"
-
       # Step 4: Build the app
       - name: Build the app
         env:
             CI: false
         run: npm run build
-
-      # Step 5: Deploy to GitHub Pages
-    #   - name: Deploy to GitHub Pages
-    #     env:
-    #         CI: false
-    #         GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-    #     run: npx gh-pages -d build -t true
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4

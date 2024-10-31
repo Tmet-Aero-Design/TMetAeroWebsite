@@ -255,7 +255,7 @@ const teamMembers = [
       role: "Avionics Specialist",
       subteam: "Avionics",
       description: "I am a fifth-year undergraduate student specializing in Computer Engineering with a focus on Software. "+
-                    "My background in both computer hardware and software systems enables me to contribute effectively in various capacities, "+
+                    "My background enables me to contribute effectively in various capacities, "+
                     "including the development of this site. ",
       image: "team_pictures/Romit-Sagu.jpg",
       social: {
