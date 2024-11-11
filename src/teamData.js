@@ -359,7 +359,7 @@ const teamMembers = [
     {
       name: "Jadon Jackman",
       role: "Media Manager",
-      subteam: "Marketing",
+      subteam: "Media & Marketing",
       description: "Hi my name is Jadon. I'm in my second year of aerospace engineering and I am this year's marketing director. When I'm not studying I'm either drawing or in the gym. If you ever see me around campus feel free to stop me.",
       image: "team_pictures/JadonJ.jpg",
       social: {
@@ -372,7 +372,7 @@ const teamMembers = [
     {
       name: "Sharon Ebenesar",
       role: "Media Manager",
-      subteam: "Marketing",
+      subteam: "Media & Marketing",
       description: "Hello!! I'm going into my third year of Aerospace Engineering and I'm going to be the graphics designer for the team.",
       image: "team_pictures/Sharon-Ebenesar.png",
       social: {
