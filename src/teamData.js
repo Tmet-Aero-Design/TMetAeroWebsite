@@ -148,7 +148,7 @@ const teamMembers = [
     },
     {
       name: "Anna Topacio",
-      role: "Wing Lead (Micro)",
+      role: "Micro Wing Lead",
       subteam: "Aerostructures",
       description: "Hi I'm Anna! I'm a wing junior lead, I love music, art, and matcha.",
       image: "team_pictures/AnnaT.JPG",
@@ -161,7 +161,7 @@ const teamMembers = [
     },
     {
       name: "Amitabha Ghosh",
-      role: "Wing Lead (Micro)",
+      role: "Micro Wing Lead",
       subteam: "Aerostructures",
       description: "Hey everyone, my name is Amitabha and I'm in my 2nd year of Aerospace Engineering.",
       image: "team_pictures/AmitabhaG.jpg",
@@ -187,7 +187,7 @@ const teamMembers = [
     },
     {
       name: "Siyona Singh Rathore",
-      role: "Fuselage Lead (Micro)",
+      role: "Micro Fuselage Lead",
       subteam: "Aerostructures",
       description: "2nd year Aerospace student. Epoxy beast. Impractical plane enthusiast.",
       image: "team_pictures/Siyona-Singh-Rathore.jpg",
@@ -213,7 +213,7 @@ const teamMembers = [
     },
     {
       name: "Aiden Vagen",
-      role: "Empennage Lead (Micro)",
+      role: "Micro Empennage Lead",
       subteam: "Aerostructures",
       description: "Second year aerospace engineering. Planes are very cool.",
       image: "team_pictures/AidenV.jpg",
@@ -226,7 +226,7 @@ const teamMembers = [
     },
     {
       name: "Kelly Loac",
-      role: "Empennage Lead (Micro)",
+      role: "Micro Empennage Lead",
       subteam: "Aerostructures",
       description: "Hey! My name is Kelly and I'm in my co-op year for mechanical engineering. I will be a tail junior lead this year and I am looking forward to all the experiences I will gain from this opportunity!",
       image: "team_pictures/KellyL.jpg",
@@ -308,7 +308,7 @@ const teamMembers = [
       name: "Chi Ta",
       role: "Avionics Jr. Lead",
       subteam: "Avionics",
-      description: "Hi everyone, my name is Chi and I'm currently in my third year of Electrical Engineering. I'm joining TMAD as an Avionics PADA Junior Lead this year, and I'm very excited to work and learn from the team!",
+      description: "Hi everyone, my name is Chi and I'm currently in my third year of Electrical Engineering. I'm joining TMAD as an Avionics Junior Lead this year, and I'm very excited to work and learn from the team!",
       image: "team_pictures/ChiT.jpg",
       social: {
         facebook: "",
@@ -334,7 +334,7 @@ const teamMembers = [
       name: "Jeongyun Jeong",
       role: "Composite Lead",
       subteam: "Manufacturing",
-      description: "Hi, My name is Jeongyun Jeong. I was GTV Lead in 2022-23 and Team Manager 2023-24. I will be helping the team as PADA Structure CO-designer with Quan as well as composite works.",
+      description: "Hi, My name is Jeongyun Jeong. I was GTV Lead in 2022-23 and Team Manager 2023-24. I will be helping the team as a co-designer with Quan as well as composite works.",
       image: "team_pictures/Jeongyun-Jeong.jpg",
       social: {
         facebook: "",
@@ -345,7 +345,7 @@ const teamMembers = [
     },
     {
       name: "Leah Ben-Tzur",
-      role: "R&D Research Lead",
+      role: "R&D Lead",
       subteam: "Research and Development",
       description: "3rd year mechanical engineer, streams in Mechanics of Solids and Mechatronics, research assistant at the Applied Aerodynamics Laboratory of Flight.",
       image: "team_pictures/LeahB.JPG",
@@ -360,7 +360,7 @@ const teamMembers = [
       name: "Jadon Jackman",
       role: "Media Manager",
       subteam: "Media & Marketing",
-      description: "Hi my name is Jadon. I'm in my second year of aerospace engineering and I am this year's marketing director. When I'm not studying I'm either drawing or in the gym. If you ever see me around campus feel free to stop me.",
+      description: "Hi my name is Jadon. I'm in my second year of aerospace engineering and I am one of the media managers for this year. When I'm not studying I'm either drawing or in the gym. If you ever see me around campus feel free to stop me.",
       image: "team_pictures/JadonJ.jpg",
       social: {
         facebook: "",
@@ -373,7 +373,7 @@ const teamMembers = [
       name: "Sharon Ebenesar",
       role: "Media Manager",
       subteam: "Media & Marketing",
-      description: "Hello!! I'm going into my third year of Aerospace Engineering and I'm going to be the graphics designer for the team.",
+      description: "Hello!! I'm going into my third year of Aerospace Engineering and I'm going to be one of the media managers for the team.",
       image: "team_pictures/Sharon-Ebenesar.png",
       social: {
         facebook: "",
