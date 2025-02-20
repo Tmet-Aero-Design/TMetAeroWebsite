@@ -28,13 +28,3 @@ jobs:
 
       # - name: Run tests
       #   run: npm test
-      
-  add-reviewers:
-    if: github.actor == 'dependabot[bot]'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Add Reviewers
-        uses: juliangruber/add-reviewers@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          reviewers: "dev-team"
