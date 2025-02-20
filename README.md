@@ -18,6 +18,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm run deploy`
+### Automatic Updates
 
-This deploys the static elements to the gh-pages branch for the github page
+When changes are merged into the ```main``` branch they are automatticly built into the ```gh-pages``` branch which is use used to serve the static elements of the website.
+
+<!--### `npm run deploy`
+
+This deploys the static elements to the gh-pages branch for the github page-->
