@@ -18,7 +18,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### Automatic Updates
+## Automatic Updates
 
 When changes are merged into the ```main``` branch they are automatticly built into the ```gh-pages``` branch which is use used to serve the static elements of the website.
 
