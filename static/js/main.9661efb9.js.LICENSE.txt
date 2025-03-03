@@ -71,42 +71,9 @@
  */
 
 /**
- * @remix-run/router v1.16.1
- *
- * Copyright (c) Remix Software Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.md file in the root directory of this source tree.
- *
- * @license MIT
- */
-
-/**
  * A React component to view a PDF document
  *
  * @see https://react-pdf-viewer.dev
  * @license https://react-pdf-viewer.dev/license
  * @copyright 2019-2023 Nguyen Huu Phuoc <me@phuoc.ng>
- */
-
-/**
- * React Router DOM v6.23.1
- *
- * Copyright (c) Remix Software Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.md file in the root directory of this source tree.
- *
- * @license MIT
- */
-
-/**
- * React Router v6.23.1
- *
- * Copyright (c) Remix Software Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.md file in the root directory of this source tree.
- *
- * @license MIT
  */
