@@ -3,7 +3,7 @@ const year = "2025_2026";
 const teamMembers = [
     {
       name: "Darren Chu",
-      role: "Micro-Class Captain",
+      role: "Captain",
       subteam: "Management",
       description: "3rd year Aerospace Engineering Student. I am the micro class team manager in charge of coordinating junior leads and generals in the SAE micro class competition. I look forward to seeing you all!",
       image: `team_pictures/${year}/Darren-Chu.PNG`,

@@ -1,4 +1,3 @@
-// src/pages/BlogPage.js
 import React from 'react';
 
 const BlogPage = ({ title, image, body }) => {

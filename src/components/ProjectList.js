@@ -1,4 +1,3 @@
-// src/components/ProjectList.js
 import React from 'react';
 import { useSelector } from 'react-redux';
 import Project from './Project';

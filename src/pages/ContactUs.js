@@ -1,13 +1,3 @@
-// src/pages/ContactUs.js
-// import React from 'react';
-
-// const ContactUs = () => {
-//     return <h1>Contact Us Page</h1>;
-// };
-
-// export default ContactUs;
-
-// src/components/ContactUs.js
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 

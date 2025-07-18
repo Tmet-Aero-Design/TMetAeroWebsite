@@ -1,4 +1,3 @@
-// src/features/portfolio/portfolioSlice.js
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {

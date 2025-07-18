@@ -1,4 +1,3 @@
-// src/pages/Blog-Leviathan.js
 import React from 'react';
 import BlogPage from './BlogPage';
 

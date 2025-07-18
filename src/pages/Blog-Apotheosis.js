@@ -1,4 +1,3 @@
-// src/pages/Blog-Apotheosis.js
 import React from 'react';
 import BlogPage from './BlogPage';
 

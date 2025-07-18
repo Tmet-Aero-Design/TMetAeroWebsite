@@ -1,4 +1,3 @@
-// src/pages/Home.js
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { setProjects } from '../features/portfolio/portfolioSlice';
