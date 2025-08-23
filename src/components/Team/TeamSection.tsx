@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import SubteamSection from './SubteamSection';
+import { TeamMember } from '@/types/TeamMember';
 
 interface TeamSectionProps {
   year: string;
-  members: any[];
+  members: TeamMember[];
   defaultOpen?: boolean;
 }
 
@@ -16,7 +17,7 @@ const TeamSection: React.FC<TeamSectionProps> = ({ year, members, defaultOpen = 
     if (!groups[subteam]) groups[subteam] = [];
     groups[subteam].push(member);
     return groups;
-  }, {} as Record<string, any[]>);
+  }, {} as Record<string, TeamMember[]>);
 
   const orderedSubteams = Object.keys(groupedBySubteam);
   const panelId = `panel-${year.replace(/[^a-zA-Z0-9]/g, '')}`;

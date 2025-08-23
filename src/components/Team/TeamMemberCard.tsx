@@ -1,19 +1,5 @@
 import React from 'react';
-
-interface Socials {
-  facebook?: string;
-  twitter?: string;
-  instagram?: string;
-  linkedin?: string;
-}
-
-interface TeamMember {
-  name: string;
-  role: string;
-  description: string;
-  image: string;
-  social?: Socials;
-}
+import { TeamMember } from '@/types/TeamMember';
 
 const TeamMemberCard: React.FC<{ member: TeamMember }> = ({ member }) => {
   return (

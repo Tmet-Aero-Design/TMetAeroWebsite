@@ -1,9 +1,10 @@
 import React from 'react';
 import TeamMemberCard from './TeamMemberCard';
+import { TeamMember } from '@/types/TeamMember';
 
 interface SubteamSectionProps {
   subteam: string;
-  members: any[];
+  members: TeamMember[];
 }
 
 const SubteamSection: React.FC<SubteamSectionProps> = ({ subteam, members }) => {
