@@ -40,7 +40,7 @@ const Project: React.FC<ProjectProps> = ({ project }) => {
 
         {/* CTA */}
         <Link
-          href={project.link}
+          href={`PastProjects/${project.link}`}
           className="inline-flex items-center mt-4 text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 font-medium transition-colors"
         >
           Learn More
