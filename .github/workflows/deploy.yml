@@ -1,4 +1,4 @@
-name: Deploy React App
+name: Deploy App
 
 on:
   push:
@@ -28,10 +28,12 @@ jobs:
       - name: Build the app
         env:
             CI: false
-        run: npm run build
+        run: |
+          npm run build
+          npm run export
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
             github_token: ${{ secrets.GITHUB_TOKEN }}
-            publish_dir: ./build
+            publish_dir: ./out
