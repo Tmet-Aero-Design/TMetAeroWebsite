@@ -7,8 +7,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: isProd ? "/TMetAeroWebsite" : "",
-  assetPrefix: isProd ? "/TMetAeroWebsite/" : "",
+  basePath: isProd ? "/TMetAeroWebsiteDev" : "",
+  assetPrefix: isProd ? "/TMetAeroWebsiteDev/" : "",
 };
 
 export default nextConfig;
