@@ -8,7 +8,7 @@ import "@react-pdf-viewer/default-layout/lib/styles/index.css";
 
 const SponsorshipPackage: React.FC = () => {
   const viewerRef = useRef(null);
-  const fileUrl = "/content/Sponsorship Package 2025.pdf";
+  const fileUrl = "/content/TMAD Sponsorship Package 2025 - 2026.pdf";
   const defaultLayoutPluginInstance = defaultLayoutPlugin();
 
   const [isDarkMode, setIsDarkMode] = useState(false);
