@@ -1,9 +1,38 @@
-const year = "2025_2026";
+import type { TeamMember } from "@/types/TeamMember";
+const year = "2024_2025";
 
-const teamMembers = [
+const teamMembers: TeamMember[] = [
+    {
+      name: "Reyan Anwar",
+      role: "Team Captain",
+      subteam: "Management",
+      description: "Potentially the greatest captain in TMAD's history (emphasis on 'potentially'). 5th year aerospace student " + 
+                    "with both an intolerance and addiction to dairy. Ex-Senior wing lead (2021-2023). CATIA Demon (Certified). " +
+                    "Peak Toad (Mario) Impersonations.",
+      image: `team_pictures/${year}/Reyan-Anwar.JPG`,
+      social: {
+        facebook: "",
+        twitter: "",
+        instagram: "https://www.instagram.com/reyan_al_buni",
+        linkedin: "https://www.linkedin.com/in/reyan-anwar/"
+      }
+    },
+    {
+        name: "Justin Sam Kumplapallil",
+        role: "Manager",
+        subteam: "Management",
+        description: "5th year aerospace student and former Fuselage Lead with skills in manufacturing and management. Have a passion for aircrafts, JDM cars and riding my motorcycle. AKA Panda.",
+        image: `team_pictures/${year}/Justin-Sam-Kumplapallil.PNG`,
+        social: {
+          facebook: "",
+          twitter: "",
+          instagram: "https://www.instagram.com/just1n.s_",
+          linkedin: "https://www.linkedin.com/in/justin-sam-kumplapallil-9161b918a/"
+        }
+    }, 
     {
       name: "Darren Chu",
-      role: "Captain",
+      role: "Micro-Class Captain",
       subteam: "Management",
       description: "3rd year Aerospace Engineering Student. I am the micro class team manager in charge of coordinating junior leads and generals in the SAE micro class competition. I look forward to seeing you all!",
       image: `team_pictures/${year}/Darren-Chu.PNG`,
@@ -106,6 +135,19 @@ const teamMembers = [
       }
     },
     {
+      name: "Krishna Patel",
+      role: "Wing Lead",
+      subteam: "Aerostructures",
+      description: "Greetings, my name is Krishna. I am going into my fourth year of aerospace engineering and I'll be your wing lead for this year.",
+      image: `team_pictures/${year}/Krishna-Patel.jpg`,
+      social: {
+        facebook: "",
+        twitter: "",
+        instagram: "https://www.instagram.com/krishhna_",
+        linkedin: "https://www.linkedin.com/in/krishna-patel-926557290"
+      }
+    },
+    {
       name: "Anna Topacio",
       role: "Micro Wing Lead",
       subteam: "Aerostructures",
@@ -132,6 +174,19 @@ const teamMembers = [
       }
     },
     {
+      name: "Alex Alfredo Aguilar",
+      role: "Fuselage Lead",
+      subteam: "Aerostructures",
+      description: "In my 4th Year of study going into the aircraft stream and I've been a part of the team for 3 years.",
+      image: `team_pictures/${year}/Alex-Alfredo-Aguilar.png`,
+      social: {
+        facebook: "",
+        twitter: "",
+        instagram: "https://www.instagram.com/fultra_",
+        linkedin: "https://www.linkedin.com/in/aalguilar/"
+      }
+    },
+    {
       name: "Siyona Singh Rathore",
       role: "Micro Fuselage Lead",
       subteam: "Aerostructures",
@@ -142,6 +197,19 @@ const teamMembers = [
         twitter: "",
         instagram: "https://www.instagram.com/iwantanicepage",
         linkedin: ""
+      }
+    },
+    {
+      name: "Nayoung Kim",
+      role: "Empennage Lead",
+      subteam: "Aerostructures",
+      description: "4th year undergraduate Mechanical Engineering student. CA uncure specialist.",
+      image: `team_pictures/${year}/Nayoung-Kim.jpg`,
+      social: {
+        facebook: "",
+        twitter: "",
+        instagram: "https://www.instagram.com/nayoung_kim21",
+        linkedin: "https://www.linkedin.com/in/nayoung--kim"
       }
     },
     {
@@ -168,6 +236,34 @@ const teamMembers = [
         twitter: "",
         instagram: "",
         linkedin: "https://www.linkedin.com/in/kellyloac/"
+      }
+    },
+    {
+      name: "Saket Bharade",
+      role: "Avionics Manager",
+      subteam: "Management",
+      description: "Designing, Managing and delivering Avionics Solutions.",
+      image: `team_pictures/${year}/Saket-Bharade.jpg`,
+      social: {
+        facebook: "",
+        twitter: "",
+        instagram: "https://www.instagram.com/__saket_",
+        linkedin: "https://www.linkedin.com/in/saket-bharade-86b1a3180/"
+      }
+    },
+    {
+      name: "Romit Sagu",
+      role: "Avionics Specialist",
+      subteam: "Avionics",
+      description: "I am a fifth-year undergraduate student specializing in Computer Engineering with a focus on Software. "+
+                    "My background enables me to contribute effectively in various capacities, "+
+                    "including the development of this site. ",
+      image: `team_pictures/${year}/Romit-Sagu.jpg`,
+      social: {
+        facebook: "",
+        twitter: "",
+        instagram: "",
+        linkedin: "https://www.linkedin.com/in/romit-sagu"
       }
     },
     {
@@ -223,6 +319,45 @@ const teamMembers = [
       }
     },
     {
+      name: "Anh Quan Luu",
+      role: "Composite Lead",
+      subteam: "Manufacturing",
+      description: "In love with Boba lover.",
+      image: `team_pictures/${year}/Anh-Quan-Luu.jpg`,
+      social: {
+        facebook: "https://www.facebook.com/quan.luuanh.9?mibextid=LQQJ4d",
+        twitter: "",
+        instagram: "https://www.instagram.com/aquan_lwu",
+        linkedin: "https://www.linkedin.com/in/anhquanluu"
+      }
+    },
+    {
+      name: "Jeongyun Jeong",
+      role: "Composite Lead",
+      subteam: "Manufacturing",
+      description: "Hi, My name is Jeongyun Jeong. I was GTV Lead in 2022-23 and Team Manager 2023-24. I will be helping the team as a co-designer with Quan as well as composite works.",
+      image: `team_pictures/${year}/Jeongyun-Jeong.jpg`,
+      social: {
+        facebook: "",
+        twitter: "",
+        instagram: "",
+        linkedin: "https://www.linkedin.com/in/jeongyun-jeong-37100b295/"
+      }
+    },
+    {
+      name: "Leah Ben-Tzur",
+      role: "R&D Lead",
+      subteam: "Research and Development",
+      description: "3rd year mechanical engineer, streams in Mechanics of Solids and Mechatronics, research assistant at the Applied Aerodynamics Laboratory of Flight.",
+      image: `team_pictures/${year}/LeahB.JPG`,
+      social: {
+        facebook: "",
+        twitter: "",
+        instagram: "",
+        linkedin: "https://www.linkedin.com/in/leah-ben-tzur-bb121a249/"
+      }
+    },
+    {
       name: "Jadon Jackman",
       role: "Media Manager",
       subteam: "Media & Marketing",
@@ -248,6 +383,19 @@ const teamMembers = [
         linkedin: "https://www.linkedin.com/in/sharon-ebenesar-9b25a0267/"
       }
     },
+    {
+      name: "Arshad Usman",
+      role: "Web Developer",
+      subteam: "Media & Marketing",
+      description: "Software Engineer suffering from a major case of senioritis.",
+      image: `team_pictures/${year}/Arshad-Usman.jpeg`,
+      social: {
+        facebook: "",
+        twitter: "",
+        instagram: "https://www.instagram.com/ar5hadahmed",
+        linkedin: "https://ca.linkedin.com/in/arshad-usman-b32110194"
+      }
+    }
   ];
   
   export default teamMembers;

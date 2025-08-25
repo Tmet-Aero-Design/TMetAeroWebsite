@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export interface ProjectType {
   id: string | number;
@@ -19,10 +20,12 @@ const Project: React.FC<ProjectProps> = ({ project }) => {
     <div className="bg-white dark:bg-[#1f1f1f] rounded-xl shadow-md overflow-hidden hover:shadow-xl transition transform hover:-translate-y-1 border border-gray-200 dark:border-gray-700">
       {/* Image Section with Year Badge */}
       <div className="relative">
-        <img
+        <Image
           alt={project.title}
           src={project.image}
           className="w-full h-56 object-cover"
+          width={400}
+          height={224}
         />
         <span className="absolute top-3 left-3 bg-indigo-600 text-white text-xs font-semibold px-3 py-1 rounded-full shadow-md">
           {project.year}

@@ -1,5 +1,6 @@
 import React from 'react';
 import { TeamMember } from '@/types/TeamMember';
+import Image from "next/image";
 
 const TeamMemberCard: React.FC<{ member: TeamMember }> = ({ member }) => {
   return (
@@ -8,11 +9,13 @@ const TeamMemberCard: React.FC<{ member: TeamMember }> = ({ member }) => {
         {/* Image */}
         <div className="shrink-0">
           <div className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-lg overflow-hidden border border-gray-200 dark:border-[#333]">
-            <img
+            <Image
               alt={member?.name || "Team member"}
               src={member.image}
               className="w-full h-full object-cover object-center"
               loading="lazy"
+              width={160}
+              height={160}
             />
           </div>
         </div>
