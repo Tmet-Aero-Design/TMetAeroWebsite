@@ -3,7 +3,7 @@ import React from "react";
 import ProjectList from "@/components/Projects/ProjectList";
 import { ProjectType } from "@/components/Projects/Project";
 
-const sampleProjects: ProjectType[] = [
+const sampleProjects: ProjectType[] = [ // id is irrelevant here, if you want to add more add them to the top of the list
   {
     id: 1,
     title: "The Apotheosis",

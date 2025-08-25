@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: isProd ? "/TMetAeroWebsiteDev" : "",
+  basePath: isProd ? "/TMetAeroWebsiteDev" : "", // Needs to be removed before merge to repo
   assetPrefix: isProd ? "/TMetAeroWebsiteDev/" : "",
 };
 
