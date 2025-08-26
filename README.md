@@ -26,15 +26,15 @@ This deploys the static elements to the gh-pages branch for the github page-->
 
 ## Add/Updating Teams
 
-1. To create a new team for a new year make a copy of the file ```teamData2024_2025.ts``` in the ```/src``` directory and change the year to the respective year at the top of the file.
+1. To create a new team for a new year make a copy of the file ```/src/data/teamData2024_2025.ts``` in the ```/src/data/``` directory and change the year to the respective year at the top of the file.
 
-2. Then go to ```/src/pages/OurTeam.js``` and import the new year's file as is done for other years and add it to the `allTeamData` array.
+2. Then go to ```/src/(app)/OurTeam/Page.tsx``` and import the new year's file as is done for other years and add it to the `allTeamData` array.
    
 3. Adjust the ``year === '{active year}}'`` parameter to change which year is expanded by default.
 
 ## Add/Updating Team Members
 
-1. To add/update team members for a given year's roster go to they year's teamData file, for example ```teamData2024_2025.ts```.
+1. To add/update team members for a given year's roster go to they year's teamData file, for example ```/src/data/teamData2024_2025.ts```.
 
 2. Then edit the text as needed, images should be placed in ```/public/team_pictures/{year}``` based on the year variable at the top of the data file. The image name should be copied exactly as it appears in the folder.
 
