@@ -48,7 +48,7 @@ const TeamSection: React.FC<TeamSectionProps> = ({ year, members, defaultOpen = 
       <div
         id={panelId}
         className={`overflow-hidden transition-all duration-700 ease-in-out transform origin-top ${
-          open ? 'max-h-[5000px] opacity-100 scale-y-100' : 'max-h-0 opacity-0 scale-y-95'
+          open ? ' opacity-100 scale-y-100' : 'max-h-0 opacity-0 scale-y-95'
         }`}
       >
         <div className="px-6 py-8">
