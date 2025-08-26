@@ -224,19 +224,6 @@ const teamMembers: TeamMember[] = [
       }
     },
     {
-      name: "Jadon Jackman",
-      role: "Media Manager",
-      subteam: "Media & Marketing",
-      description: "Hi my name is Jadon. I'm in my second year of aerospace engineering and I am one of the media managers for this year. When I'm not studying I'm either drawing or in the gym. If you ever see me around campus feel free to stop me.",
-      image: `team_pictures/${year}/JadonJ.jpg`,
-      social: {
-        facebook: "",
-        twitter: "",
-        instagram: "",
-        linkedin: "https://www.linkedin.com/in/jadon-jackman-b50a39260/"
-      }
-    },
-    {
       name: "Sharon Ebenesar",
       role: "Media Manager",
       subteam: "Media & Marketing",
