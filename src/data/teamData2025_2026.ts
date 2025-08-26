@@ -16,6 +16,19 @@ const teamMembers: TeamMember[] = [
       }
     },
     {
+      name: "Siyona Singh Rathore",
+      role: "Vice Captain",
+      subteam: "Management",
+      description: "2nd year Aerospace student. Epoxy beast. Impractical plane enthusiast.",
+      image: `team_pictures/${year}/Siyona-Singh-Rathore.jpg`,
+      social: {
+        facebook: "",
+        twitter: "",
+        instagram: "https://www.instagram.com/iwantanicepage",
+        linkedin: ""
+      }
+    },
+    {
       name: "Julian Bardin",
       role: "Design Advisor",
       subteam: "Management",
@@ -39,6 +52,19 @@ const teamMembers: TeamMember[] = [
         twitter: "",
         instagram: "https://www.instagram.com/lieutenantminus/",
         linkedin: "https://www.linkedin.com/in/minsu-joo-761648a6"
+      }
+    },
+    {
+      name: "Sharon Ebenesar",
+      role: "Marketing Manager",
+      subteam: "Management",
+      description: "Hello!! I'm going into my third year of Aerospace Engineering and I'm going to be one of the media managers for the team.",
+      image: `team_pictures/${year}/Sharon-Ebenesar.png`,
+      social: {
+        facebook: "",
+        twitter: "",
+        instagram: "https://www.instagram.com/sharon_ebenesar",
+        linkedin: "https://www.linkedin.com/in/sharon-ebenesar-9b25a0267/"
       }
     },
     {
@@ -133,19 +159,6 @@ const teamMembers: TeamMember[] = [
       }
     },
     {
-      name: "Siyona Singh Rathore",
-      role: "Micro Fuselage Lead",
-      subteam: "Aerostructures",
-      description: "2nd year Aerospace student. Epoxy beast. Impractical plane enthusiast.",
-      image: `team_pictures/${year}/Siyona-Singh-Rathore.jpg`,
-      social: {
-        facebook: "",
-        twitter: "",
-        instagram: "https://www.instagram.com/iwantanicepage",
-        linkedin: ""
-      }
-    },
-    {
       name: "Aiden Vagen",
       role: "Micro Empennage Lead",
       subteam: "Aerostructures",
@@ -221,19 +234,6 @@ const teamMembers: TeamMember[] = [
         twitter: "",
         instagram: "",
         linkedin: "https://www.linkedin.com/in/chita124/"
-      }
-    },
-    {
-      name: "Sharon Ebenesar",
-      role: "Media Manager",
-      subteam: "Media & Marketing",
-      description: "Hello!! I'm going into my third year of Aerospace Engineering and I'm going to be one of the media managers for the team.",
-      image: `team_pictures/${year}/Sharon-Ebenesar.png`,
-      social: {
-        facebook: "",
-        twitter: "",
-        instagram: "https://www.instagram.com/sharon_ebenesar",
-        linkedin: "https://www.linkedin.com/in/sharon-ebenesar-9b25a0267/"
       }
     },
   ];
