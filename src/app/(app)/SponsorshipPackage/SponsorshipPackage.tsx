@@ -26,7 +26,7 @@ const SponsorshipPackage: React.FC = () => {
   return (
     <div className="min-h-screen w-full flex flex-col items-center pt-16 bg-white text-gray-900 dark:bg-[#0d0d0d] dark:text-white transition-colors duration-500">
       <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center">
-        Sponsorship Package 2025
+        Sponsorship Package 2025 - 2026
       </h1>
 
       <div className="w-full max-w-[1200px] px-4 sm:px-6">
@@ -34,7 +34,7 @@ const SponsorshipPackage: React.FC = () => {
           <div className="bg-gray-100 dark:bg-[#1a1a1a] shadow-xl rounded-2xl overflow-hidden transition-transform transform hover:scale-105 duration-300">
             {/* Scrollable viewer container */}
             <div className="h-[80vh] overflow-auto">
-              <Viewer
+              <Viewer   
                 fileUrl={fileUrl}
                 ref={viewerRef}
                 plugins={[defaultLayoutPluginInstance]}
