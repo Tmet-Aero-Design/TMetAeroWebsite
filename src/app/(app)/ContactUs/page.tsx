@@ -86,14 +86,15 @@ const ContactUs: React.FC = () => {
               className="rounded-lg border border-gray-300 dark:border-[#3a3a3a] bg-white dark:bg-[#1f1f1f] px-4 py-2 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-400 dark:focus:ring-blue-500 focus:outline-none transition resize-none"
             />
           </div>
-
-          <button
-            type="submit"
-            disabled={loading}
-            className="w-full md:w-auto px-8 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold transition transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed"
-          >
-            {loading ? "Sending..." : "Send Message"}
-          </button>
+          <div className="flex justify-center">
+            <button
+                type="submit"
+                disabled={loading}
+                className="w-full cursor-pointer md:w-auto px-8 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold transition transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+                {loading ? "Sending..." : "Send Message"}
+            </button>
+          </div>
 
           <div className="pt-8 mt-8 border-t border-gray-300 dark:border-[#3a3a3a] text-center space-y-2">
             <a href="mailto:rad@torontomu.ca" className="text-blue-500 hover:underline">Rad@torontomu.ca</a>
