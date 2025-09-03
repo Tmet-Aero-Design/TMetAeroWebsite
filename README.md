@@ -18,7 +18,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Automatic Updates
 
-When changes are merged into the ```main``` branch they are automatticly built into the ```gh-pages``` branch which is use used to serve the static elements of the website.
+When changes are merged into the ```main``` branch they are automatically built into the ```gh-pages``` branch which is use used to serve the static elements of the website.
 
 <!--### `npm run deploy`
 
