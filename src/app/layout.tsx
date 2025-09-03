@@ -7,6 +7,7 @@ const poppins = Poppins({ weight: "400", subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "TMet Aero Design",
   description: "Toronto Metropolitan Aero Design",
+  keywords: ["Aero", "Design", "Toronto", "Metropolitan", "TMAD"]
 };
 
 export default function RootLayout({
