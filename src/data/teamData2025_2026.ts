@@ -6,7 +6,7 @@ const teamMembers: TeamMember[] = [
       name: "Darren Chu",
       role: "Captain",
       subteam: "Management",
-      description: "3rd year Aerospace Engineering Student. I am the micro class team manager in charge of coordinating junior leads and generals in the SAE micro class competition. I look forward to seeing you all!",
+      description: "4th year Aerospace Engineering Student, leading the SAE Aero Design Micro class team.",
       image: `team_pictures/${year}/Darren-Chu.PNG`,
       social: {
         facebook: "",
