@@ -15,7 +15,7 @@
     "next": "15.5.2",
     "pdfjs-dist": "^3.11.174",
     "react": "19.1.0",
-    "react-dom": "19.1.0",
+    "react-dom": "19.2.0",
     "react-hot-toast": "^2.6.0"
   },
   "devDependencies": {
