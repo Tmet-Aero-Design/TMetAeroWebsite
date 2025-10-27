@@ -253,7 +253,7 @@ const teamMembers: TeamMember[] = [
     },
     {
       name: "Romit Sagu",
-      role: "Avionics Specialist",
+      role: "Software Engineering Lead / Avionics Specialist",
       subteam: "Avionics",
       description: "I am a fifth-year undergraduate student specializing in Computer Engineering with a focus on Software. "+
                     "My background enables me to contribute effectively in various capacities, "+
