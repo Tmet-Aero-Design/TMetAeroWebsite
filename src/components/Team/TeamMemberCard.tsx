@@ -25,7 +25,7 @@ const TeamMemberCard: React.FC<{ member: TeamMember }> = ({ member }) => {
           <div>
             <h3 className="text-lg font-bold text-gray-900 dark:text-gray-100">{member.name}</h3>
             <p className="text-indigo-600 dark:text-indigo-400 font-medium mb-2">{member.role}</p>
-            <p className="text-sm text-gray-600 dark:text-gray-300 clamp-3">{member.description}</p>
+            <p className="text-sm text-gray-600 dark:text-gray-300 clamp-3 whitespace-pre-wrap">{member.description}</p>
           </div>
 
           {/* Socials */}

@@ -5,6 +5,15 @@ import { ProjectType } from "@/components/Projects/Project";
 
 const sampleProjects: ProjectType[] = [ // id is irrelevant here, if you want to add more add them to the top of the list
   {
+    id: 0,
+    title: "The Progenitor",
+    year: "2025-2026",
+    description:
+      "The Progenitor (2025-2026) was developed as TMAD's entry for the 2026 SAE Aero Design East Regular Class and represented one of the team's boldest aircraft configurations to date.",
+    image: "/previous_designs/2025-2026.png",
+    link: "/Progenitor",
+  },
+  {
     id: 1,
     title: "The Apotheosis",
     year: "2023-2024",

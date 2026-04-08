@@ -49,7 +49,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             className="flex title-font font-medium items-center mb-4 md:mb-0"
           >
             <Image
-              src="logo40.png"
+              src="/logo40.png"
               alt="TMet Aero Design"
               className="w-10 h-10 rounded-full p-2 bg-white dark:bg-gray-800"
               width={40}
@@ -87,7 +87,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900 dark:text-gray-100"
           >
             <Image
-              src="logo40.png"
+              src="/logo40.png"
               alt="TMet Aero Design"
               className="w-10 h-10 rounded-full text-white p-2 bg-white dark:bg-gray-800"
               width={40}

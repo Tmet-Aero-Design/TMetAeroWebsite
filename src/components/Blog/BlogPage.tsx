@@ -17,6 +17,8 @@ const BlogPage: React.FC<BlogPageProps> = ({ title, image, body }) => {
             <Image
               src={image}
               alt={title}
+              width={800}
+              height={600}
               className="w-full h-auto max-h-[600px] object-contain rounded-xl border border-gray-200 dark:border-[#333] shadow-sm dark:shadow-md transition-transform duration-300 hover:scale-105"
             />
           </div>

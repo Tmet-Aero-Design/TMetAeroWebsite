@@ -6,7 +6,7 @@ const teamMembers: TeamMember[] = [
       name: "Darren Chu",
       role: "Captain",
       subteam: "Management",
-      description: "4th year Aerospace Engineering Student, leading the SAE Aero Design Micro class team.",
+      description: "4th year aerospace engineering student, aircraft stream. \nFavourite Movie: The Dictator.",
       image: `team_pictures/${year}/Darren-Chu.PNG`,
       social: {
         facebook: "",
@@ -19,7 +19,7 @@ const teamMembers: TeamMember[] = [
       name: "Siyona Singh Rathore",
       role: "Vice Captain",
       subteam: "Management",
-      description: "2nd year Aerospace student. Epoxy beast. Impractical plane enthusiast.",
+      description: "3rd year Aerospace student. Epoxy beast. Impractical plane enthusiast.",
       image: `team_pictures/${year}/Siyona-Singh-Rathore.jpg`,
       social: {
         facebook: "",
@@ -175,7 +175,7 @@ const teamMembers: TeamMember[] = [
       name: "Kelly Loac",
       role: "Micro Empennage Lead",
       subteam: "Aerostructures",
-      description: "Hey! My name is Kelly and I'm in my co-op year for mechanical engineering. I will be a tail junior lead this year and I am looking forward to all the experiences I will gain from this opportunity!",
+      description: "Aerostructures Lead. Co-op year to final year. Junior lead to senior lead.",
       image: `team_pictures/${year}/KellyL.jpg`,
       social: {
         facebook: "",
